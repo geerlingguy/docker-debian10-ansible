@@ -8,7 +8,7 @@ ENV pip_packages "ansible cryptography"
 # Install dependencies.
 RUN apt-get update \
     && apt-get install -y --no-install-recommends \
-       sudo systemd \
+       sudo systemd systemd-sysv \
        build-essential wget libffi-dev libssl-dev \
        python-pip python-dev python-setuptools python-wheel \
     && rm -rf /var/lib/apt/lists/* \
