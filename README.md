@@ -6,9 +6,8 @@ Debian 10 (Buster) Docker container for Ansible playbook and role testing.
 
 ## Tags
 
-  - `latest`: Latest stable version of Ansible.
-
-The latest tag is a lightweight image for basic validation of Ansible playbooks.
+  - `latest`: Latest stable version of Ansible, with Python 3.x.
+  - `python2`: Latest stable version of Ansible, with Python 2.x.
 
 ## How to Build
 
