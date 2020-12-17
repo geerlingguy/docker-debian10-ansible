@@ -1,13 +1,12 @@
 # Debian 10 (Buster) Ansible Test Image
 
-[![Build Status](https://travis-ci.com/geerlingguy/docker-debian10-ansible.svg?branch=master)](https://travis-ci.com/geerlingguy/docker-debian10-ansible) [![Docker Automated build](https://img.shields.io/docker/automated/geerlingguy/docker-debian10-ansible.svg?maxAge=2592000)](https://hub.docker.com/r/geerlingguy/docker-debian10-ansible/)
+[![CI](https://github.com/geerlingguy/docker-debian10-ansible/workflows/Build/badge.svg?branch=master&event=push)](https://github.com/geerlingguy/docker-debian10-ansible/actions?query=workflow%3ABuild) [![Docker pulls](https://img.shields.io/docker/pulls/geerlingguy/docker-debian10-ansible)](https://hub.docker.com/r/geerlingguy/docker-debian10-ansible/))
 
 Debian 10 (Buster) Docker container for Ansible playbook and role testing.
 
 ## Tags
 
   - `latest`: Latest stable version of Ansible, with Python 3.x.
-  - `python2`: Latest stable version of Ansible, with Python 2.x.
 
 ## How to Build
 
