@@ -1,6 +1,6 @@
 # Debian 10 (Buster) Ansible Test Image
 
-[![CI](https://github.com/geerlingguy/docker-debian10-ansible/workflows/Build/badge.svg?branch=master&event=push)](https://github.com/geerlingguy/docker-debian10-ansible/actions?query=workflow%3ABuild) [![Docker pulls](https://img.shields.io/docker/pulls/geerlingguy/docker-debian10-ansible)](https://hub.docker.com/r/geerlingguy/docker-debian10-ansible/))
+[![CI](https://github.com/geerlingguy/docker-debian10-ansible/workflows/Build/badge.svg?branch=master&event=push)](https://github.com/geerlingguy/docker-debian10-ansible/actions?query=workflow%3ABuild) [![Docker pulls](https://img.shields.io/docker/pulls/geerlingguy/docker-debian10-ansible)](https://hub.docker.com/r/geerlingguy/docker-debian10-ansible/)
 
 Debian 10 (Buster) Docker container for Ansible playbook and role testing.
 
