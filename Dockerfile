@@ -17,7 +17,7 @@ RUN apt-get update \
 
 # For compatibility, make sure man directory exists.
 # See: https://github.com/geerlingguy/ansible-role-java/issues/64
-RUN mkdir /usr/share/man/man1/
+RUN mkdir -p /usr/share/man/man1
 
 # Upgrade pip to latest version.
 RUN pip3 install --upgrade pip
