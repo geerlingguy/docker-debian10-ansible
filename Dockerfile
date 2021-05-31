@@ -1,7 +1,7 @@
 FROM debian:buster
 LABEL maintainer="Jeff Geerling"
 
-ARG DEBIAN_FRONTEND noninteractive
+ARG DEBIAN_FRONTEND=noninteractive
 
 ENV pip_packages "ansible cryptography"
 
